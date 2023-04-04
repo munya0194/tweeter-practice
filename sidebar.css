@@ -1,0 +1,38 @@
+.sidebar{
+  width:320px;
+  position:fixed;
+  top:0;
+  left:0;
+  bottom:0;
+  padding-top:30px;
+  border-right-style: solid;
+  border-width:1px;
+  border-color:gray;
+  
+ 
+}
+.logo img,
+.hashtag img,
+.settings img{
+  height:40px;
+  width:40px;
+  object-fit:cover;
+  border-radius:22px;
+  margin-right:20px;
+}
+.logo img{
+  margin-left:50px;
+}
+.hashtag,
+.settings{
+  font-size:20px;
+  display:flex;
+  flex-direction:row;
+  height:44px;
+  justify-content:left;
+  align-items:center;
+  margin-top:20px;
+  margin-left:50px;
+
+ 
+}

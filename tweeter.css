@@ -1,0 +1,226 @@
+body{
+  font-family:arial;
+  font-size:16px;
+  margin-top:62px;
+  margin-left: 322px;
+  height:3000px;
+  display:flex;
+  flex-direction:row;
+}
+
+.profile{
+  width:600px;
+  margin-bottom:0;
+  border:1px solid gray;
+  
+  
+}
+.background img{
+  height:200px;
+  width:600px;
+  object-fit:cover;
+}
+.background{
+  
+  height:200px;
+  
+}
+.follow-row{
+  position:relative;
+  display:flex;
+  flex-direction:row;
+  justify-content: end;
+  align-items: center;
+  margin-top:0px;
+  height:60px;
+  margin-bottom:30px;
+
+  
+}
+.follow-row button{
+  Height:40px;
+  width:80px;
+  margin-right:20px;
+  border-radius:20px;
+  border:none;
+  font-family:Arial, Helvetica, sans-serif;
+  font-size:14px;
+  font-weight:bold;
+  background-color:black;
+  color:white;
+
+}
+.profile-picture img{
+  height:160px;
+  width:160px;
+  border-radius:85px;
+  border:5px solid white;
+  object-fit:cover;
+  
+}
+.profile-picture{
+  position:absolute;
+  top:-80px;
+  left:26px;
+  
+}
+.name-container{
+  margin-top:40px;
+  padding-left:26px;
+  display: grid;
+  grid-template-rows: 1fr;
+  row-gap:5px;
+    
+}
+.name-container img{
+  height:18px;
+  width:18px;
+}
+.name{
+  Font-size:18px;
+  font-weight:bold;
+}
+.nickname,
+.history,
+.stats{
+  color:gray;
+  font-size:16px;
+ 
+}
+.history{
+  
+  margin-top:20px;
+  margin-bottom:20px;
+  padding-left:26px;
+  align-items:center;
+}
+.history img{
+  height:20px;
+  width:20px;
+  object-fit:cover;
+  
+}
+.stats{
+  display:flex;
+  flex-direction:row;
+  padding-left:26px;
+  
+}
+.bold{
+  font-weight:bold;
+  color:black;
+}
+.links{
+  display:flex;
+  flex-direction:row;
+  justify-content: space-between;
+  align-items:center;
+  height:50px;
+  border-bottom: 1px solid gray;
+  padding-left:28px;  
+  padding-right:28px;
+}
+
+.links:hover div{
+  background-color: lightgray;
+  cursor:pointer;
+  
+}
+.tweet{
+  display:flex;
+  border-bottom-style:solid;
+  border-color:gray;
+  border-width:1px;
+}
+.tweet-profile-picture{
+  
+  margin:20px 10px;
+}
+.tweet-profile-picture img{
+  height:50px;
+  width:50px;
+  border-radius:25px;
+}
+.tweet-details{
+  display:grid;
+  
+  padding-top:20px;
+  
+}
+.author-container{
+  
+  display:flex;
+  flex-direction:row;
+  
+    
+}
+.author-container button{
+  margin-left: 280px;
+  background-color:white;
+  border:none;
+  font-size:20px;
+  font-weight:bold;
+}
+.author{
+  font-weight:bold;
+  font-size:17px;
+}
+
+.who-when{
+  margin-left:10px;
+  color:gray;
+}
+.reply{
+  margin-top:6px;
+  margin-bottom:6px;
+  color:gray;
+}
+.reply span{
+  color:blue;
+}
+.text{
+  line-height:30px;
+}
+.right-screen{
+  width:418px;
+
+  padding-top:20px;
+}
+.new-to-twitter{
+  margin-left:30px;
+  padding:10px;
+  width: 340px;
+  height:280px;
+  border-style: solid;
+  border-color:lightgray;
+  border-width:1px;
+  border-radius:20px;
+  
+}
+.title{
+  font-size:20px;
+  font-weight:bold;
+   
+}
+.details{
+  font-size:14px;
+  color:gray;
+  margin-top:10px;
+  margin-bottom:10px;
+}
+.buttons{
+  width:300px;
+  height:40px;
+  margin-top:10px;
+  border-radius:30px;
+  border-style:solid;
+  border-width:2px;
+  border-color:lightgray;
+  background-color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size:400;
+  font-weight:bold;
+}
+.right-screen span{
+  color:lightblue;
+}
